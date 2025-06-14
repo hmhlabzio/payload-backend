@@ -17,6 +17,11 @@ RUN if [ -f package-lock.json ]; then \
 # copy rest of the project
 COPY . .
 
+# ❗ ADD BUILD STEP HERE
+RUN npm run build
+
 # expose and run app
 EXPOSE 3000
+
+# run the production server
 CMD ["npm", "start"]

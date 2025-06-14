@@ -1,6 +1,8 @@
 // src/collections/Cities.ts
 
-import { CollectionConfig } from 'payload/types';
+// import { CollectionConfig } from 'payload/types';
+// import { CollectionConfig } from 'payload/dist/collections/config/types';
+import { CollectionConfig } from "payload";
 
 export const Cities: CollectionConfig = {
   slug: 'cities',
